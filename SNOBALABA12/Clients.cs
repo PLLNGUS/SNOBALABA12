@@ -4,9 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SNOBALABA12
+namespace LABA12
 {
-    internal class Clients
+    public class Clients
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string Number { get; set; }
+        public List<Orderss> Orders { get; set; }
+        public Clients()
+        {
+            Orders = new List<Orderss>();
+        }
     }
+
 }

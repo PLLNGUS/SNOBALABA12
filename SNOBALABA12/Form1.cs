@@ -6,5 +6,10 @@ namespace SNOBALABA12
         {
             InitializeComponent();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
